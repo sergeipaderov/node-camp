@@ -9,17 +9,24 @@
 }
 
 .form-control label,
-.form-control input {
+.form-control input,
+.form-control textarea {
     display: block;
     width: 100%;
 }
 
-.form-control input {
+.form-control input,
+.form-control textarea {
     border: 1px solid #607D8B;
     font: inherit;
     border-radius: 2px;
     margin: .2rem 0;
     padding: .5rem;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+    outline-color: #fff1bc;
 }
 
 button {
